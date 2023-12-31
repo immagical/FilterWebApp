@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffff;  
+}
+filter {
+    width: 70px; 
+    height: 70px; 
+    margin-top: 0px; 
+}
+img {
+    width: 60px; 
+    height: 60px; 
+    margin: 5px;
+}
+#mustache {
+    background-color: #96D9CF;
+}
+#starfreckles {
+    background-color: #F6AF72;
+}
+#cat {
+    background-color: #FAEDE2;
+}
+#monalisa {
+    background-color: #DBE6C2;
+}
+ .heading{
+    background-color: #F4C774; 
+    border: solid 5px #F6AF72; 
+    color: #31877A; 
+    margin-top:0; 
+    padding: 3px;
+    margin-bottom: 5px; 
+ }
+ .heading:hover {
+    background-color: #96D9CF; 
+    border: solid 5px #31877A; 
+    color: #E29A12; 
+ }
+ .reset {
+    background-color: #E8CA21;
+    margin-top: 10px; 
+ }
+ .snap {
+    background-color: #F16141;
+    margin-top: 10px; 
+ }
+canvas{
+    border : dotted darkblue 3px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%{box-shadow: 10px 10px 30px  rgb(255, 130, 130);}
+    18%{box-shadow: 10px 10px 30px rgb(252, 199, 101);}
+    36%{box-shadow: 10px 10px 30px rgb(246, 246, 116);}
+    54%{box-shadow: 10px 10px 30px rgb(92, 215, 92);}
+    72%{box-shadow: 10px 10px 30px rgb(113, 216, 248);}
+    90%{box-shadow: 10px 10px 30px rgb(209, 97, 209);}
+    100%{box-shadow: 10px 10px 30px palevioletred;}
+}
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3 */
